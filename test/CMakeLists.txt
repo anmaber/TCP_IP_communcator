@@ -3,7 +3,7 @@ message("communicator test")
 
 add_executable(${PROJECT_TESTS_NAME}
     ${PROJECT_SOURCE_DIR}/test/main.cpp
-    simpleTest.hpp)
+    simpleTest.cpp)
 
 add_dependencies(${PROJECT_TESTS_NAME} gmock_main)
 
